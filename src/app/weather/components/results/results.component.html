@@ -18,7 +18,7 @@
     </tr>
   </tbody>
 </table>
-<div *ngIf="errorMessage" class="alert alert-danger"> {{errorMessage}} </div>
+<div *ngIf="errorMessage" class="alert alert-danger" id="error"> {{errorMessage}} </div>
 <ng-template #showMessage>
   <p *ngIf="!errorMessage"> You have not searched any city for weather</p>
 </ng-template>
